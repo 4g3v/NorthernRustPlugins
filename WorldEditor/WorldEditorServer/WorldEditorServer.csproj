@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{086F9100-0616-4B63-B27F-01908A046838}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorldEditorServer</RootNamespace>
+    <AssemblyName>WorldEditorServer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>D:\Stuff\Rust\Server\Modules\WorldEditorServer\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>References\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>D:\Stuff\Rust\Server\rust_server_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.HitBox, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>D:\Stuff\Rust\Server\rust_server_Data\Managed\Facepunch.HitBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.ID, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>References\Facepunch.ID.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.MeshBatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>References\Facepunch.MeshBatch.dll</HintPath>
+    </Reference>
+    <Reference Include="Fougerite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>References\Fougerite.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>D:\Stuff\Rust\Server\rust_server_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RustBuster2016Server, Version=1.0.0.0, Culture=neutral">
+      <HintPath>References\RustBuster2016Server.dll</HintPath>
+    </Reference>
+    <Reference Include="RustPP, Version=1.1.7.9, Culture=neutral, PublicKeyToken=null">
+      <HintPath>D:\Stuff\Rust\Server\Modules\RustPP\RustPP.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="uLink, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>References\uLink.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>References\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoSpawnBehaviour.cs" />
+    <Compile Include="CustomStuff\NewSupplyDropPlane.cs" />
+    <Compile Include="DoorSettings.cs" />
+    <Compile Include="ImageZoneSettings.cs" />
+    <Compile Include="LoadingHandler.cs" />
+    <Compile Include="LootStorageSettings.cs" />
+    <Compile Include="NukeManager.cs" />
+    <Compile Include="ObjectBehaviours\HealingStationBehaviour.cs" />
+    <Compile Include="ObjectBehaviours\LandmineBehaviour.cs" />
+    <Compile Include="ObjectBehaviours\DestroyBehaviour.cs" />
+    <Compile Include="ObjectBehaviours\LootStorageBehaviour.cs" />
+    <Compile Include="ObjectBehaviours\RadZoneBehaviour.cs" />
+    <Compile Include="ObjectBehaviours\TeleporterBehaviour.cs" />
+    <Compile Include="ObjectBehaviours\TurretBehaviour.cs" />
+    <Compile Include="RPCBehaviour.cs" />
+    <Compile Include="AutoSpawnManager.cs" />
+    <Compile Include="SpawnManager.cs" />
+    <Compile Include="TeleporterSettings.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="WorldEditorServer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

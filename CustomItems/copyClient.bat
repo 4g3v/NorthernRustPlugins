@@ -1,0 +1,1 @@
+copy /y "C:\Users\Vega\RiderProjects\CustomItems\CustomItemsClient\bin\Debug\CustomItemsClient.dll" "D:\Stuff\Rust\Server\save\RustBuster2016Server\ClientPlugins\"

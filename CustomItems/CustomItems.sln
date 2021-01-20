@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomItems", "CustomItems\CustomItems.csproj", "{F6313078-46C9-4100-BD6D-D95E0A5F214E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomItemsClient", "CustomItemsClient\CustomItemsClient.csproj", "{A1C75C40-7CE6-40B8-8659-9DDA2DBA51E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6313078-46C9-4100-BD6D-D95E0A5F214E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6313078-46C9-4100-BD6D-D95E0A5F214E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6313078-46C9-4100-BD6D-D95E0A5F214E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6313078-46C9-4100-BD6D-D95E0A5F214E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C75C40-7CE6-40B8-8659-9DDA2DBA51E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C75C40-7CE6-40B8-8659-9DDA2DBA51E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C75C40-7CE6-40B8-8659-9DDA2DBA51E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C75C40-7CE6-40B8-8659-9DDA2DBA51E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

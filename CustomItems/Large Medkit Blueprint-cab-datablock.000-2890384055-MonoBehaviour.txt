@@ -1,0 +1,38 @@
+0 MonoBehaviour Base
+ 1 string m_Name = "Large Medkit Blueprint"
+ 1 string icon = "content/item/tex/BlueprintIcon"
+ 0 int _maxUses = 1
+ 0 int _spawnUsesMin = 1
+ 0 int _spawnUsesMax = 1
+ 0 int _minUsesForDisplay = 1
+ 0 float _maxCondition = 100
+ 1 UInt8 _splittable = 0
+ 0 int _itemFlags = 0
+ 1 UInt8 isResearchable = 0
+ 1 UInt8 isRepairable = 0
+ 1 UInt8 isRecycleable = 1
+ 1 UInt8 doesLoseCondition = 0
+ 0 int category = 6
+ 0 CombineRecipe Combinations
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 int transientMode = 0
+ 0 PPtr<$ItemDataBlock> resultItem
+ 0 int numResultItem = 1
+ 0 IngredientEntry ingredients
+  0 Array Array (2 items)
+   0 int size = 2
+   [0]
+    0 Generic Mono data
+     0 PPtr<$ItemDataBlock> Ingredient
+      0 int m_FileID = 4
+      0 int m_PathID = 840714784
+     0 int amount = 3
+   [1]
+    0 Generic Mono data
+     0 PPtr<$ItemDataBlock> Ingredient
+      0 int m_FileID = 0
+      0 int m_PathID = 921837027
+     0 int amount = 3
+ 0 float craftingDuration = 10
+ 1 UInt8 RequireWorkbench = 1

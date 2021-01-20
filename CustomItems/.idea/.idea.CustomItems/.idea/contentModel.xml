@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Vega\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Vega\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Vega\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_CustomItems.1229979892.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Vega\RiderProjects\CustomItems" t="IncludeFlat">
+      <e p="CustomItems" t="IncludeRecursive">
+        <e p="BundleBehaviour.cs" t="Include" />
+        <e p="CustomItems.cs" t="Include" />
+        <e p="CustomItems.csproj" t="IncludeRecursive" />
+        <e p="DataBlocks" t="Include">
+          <e p="AbsolomM4BlueprintDataBlock.cs" t="Include" />
+          <e p="AVXDollarDataBlock.cs" t="Include" />
+          <e p="BatteriesDataBlock.cs" t="Include" />
+          <e p="BigLadderBlueprintDataBlock.cs" t="Include" />
+          <e p="BigLadderDataBlock.cs" t="Include" />
+          <e p="BigLootboxBlueprintDataBlock.cs" t="Include" />
+          <e p="BigLootboxDataBlock.cs" t="Include" />
+          <e p="BuildingLootboxBlueprintDataBlock.cs" t="Include" />
+          <e p="BuildingLootboxDataBlock.cs" t="Include" />
+          <e p="C4GrenadeDataBlock.cs" t="Include" />
+          <e p="CopperDataBlock.cs" t="Include" />
+          <e p="DamageTurretBlueprintDataBlock.cs" t="Include" />
+          <e p="DamageTurretDataBlock.cs" t="Include" />
+          <e p="DiamondsDataBlock.cs" t="Include" />
+          <e p="DrugOneDataBlock.cs" t="Include" />
+          <e p="ElectronicJunkDataBlock.cs" t="Include" />
+          <e p="FlagDataBlock.cs" t="Include" />
+          <e p="HealingStationBlueprintDataBlock.cs" t="Include" />
+          <e p="HealingStationDataBlock.cs" t="Include" />
+          <e p="InstantHealthBlueprintDataBlock.cs" t="Include" />
+          <e p="InstantHealthItemDataBlock.cs" t="Include" />
+          <e p="IronBaseBlueprintDataBlock.cs" t="Include" />
+          <e p="IronBaseDataBlock.cs" t="Include" />
+          <e p="IronShardsDataBlock.cs" t="Include" />
+          <e p="JointDataBlock.cs" t="Include" />
+          <e p="KeycardADataBlock.cs" t="Include" />
+          <e p="KeycardBDataBlock.cs" t="Include" />
+          <e p="KeycardC1DataBlock.cs" t="Include" />
+          <e p="KeycardCDataBlock.cs" t="Include" />
+          <e p="LandmineBlueprintDataBlock.cs" t="Include" />
+          <e p="LandmineDataBlock.cs" t="Include" />
+          <e p="LootboxBlueprintDataBlock.cs" t="Include" />
+          <e p="LootboxDataBlock.cs" t="Include" />
+          <e p="MetalBarricadeBlueprintDataBlock.cs" t="Include" />
+          <e p="MetalBarricadeDataBlock.cs" t="Include" />
+          <e p="ModifiedM4DataBlock.cs" t="Include" />
+          <e p="OneManBunkerBlueprintDataBlock.cs" t="Include" />
+          <e p="OneManBunkerDataBlock.cs" t="Include" />
+          <e p="ParachuteDataBlock.cs" t="Include" />
+          <e p="PortalRadioBlueprintDataBlock.cs" t="Include" />
+          <e p="PortalRadioDataBlock.cs" t="Include" />
+          <e p="RaidFlagBlueprintDataBlock.cs" t="Include" />
+          <e p="RaidFlagDataBlock.cs" t="Include" />
+          <e p="RangeTurretBlueprintDataBlock.cs" t="Include" />
+          <e p="RangeTurretDataBlock.cs" t="Include" />
+          <e p="RespawnFlagBlueprintDataBlock.cs" t="Include" />
+          <e p="RespawnFlagDataBlock.cs" t="Include" />
+          <e p="ShelfBlueprintDataBlock.cs" t="Include" />
+          <e p="ShelfDataBlock.cs" t="Include" />
+          <e p="SilencedTurretBlueprintDataBlock.cs" t="Include" />
+          <e p="SilencedTurretDataBlock.cs" t="Include" />
+          <e p="SmallLadderBlueprintDataBlock.cs" t="Include" />
+          <e p="SmallLadderDataBlock.cs" t="Include" />
+          <e p="SmokeGrenadeDataBlock.cs" t="Include" />
+          <e p="TestItemDataBlock.cs" t="Include" />
+          <e p="TPFourDataBlock.cs" t="Include" />
+          <e p="TpOneDataBlock.cs" t="Include" />
+          <e p="TPThreeDataBlock.cs" t="Include" />
+          <e p="TPTwoDataBlock.cs" t="Include" />
+          <e p="TurretBlueprintDataBlock.cs" t="Include" />
+          <e p="TurretDamageExtension.cs" t="Include" />
+          <e p="TurretDataBlock.cs" t="Include" />
+          <e p="TurretRangeExtensionDataBlock.cs" t="Include" />
+          <e p="TurretSilencerDataBlock.cs" t="Include" />
+          <e p="WaterBridgeBlueprintDataBlock.cs" t="Include" />
+          <e p="WaterBridgeDataBlock.cs" t="Include" />
+          <e p="WoodFactoryBlueprintDataBlock.cs" t="Include" />
+          <e p="WoodFactoryDataBlock.cs" t="Include" />
+        </e>
+        <e p="Extensions.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RPCBehaviour.cs" t="Include" />
+        <e p="SmokeGrenade.cs" t="Include" />
+      </e>
+      <e p="CustomItems.sln" t="IncludeFlat" />
+      <e p="CustomItemsClient" t="IncludeRecursive">
+        <e p="AntiBoxGlitch.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BundleBehaviour.cs" t="Include" />
+        <e p="CharacterWaiter.cs" t="Include" />
+        <e p="CustomItemsClient.cs" t="Include" />
+        <e p="CustomItemsClient.csproj" t="IncludeRecursive" />
+        <e p="DataBlocks" t="Include">
+          <e p="AbsolomM4BlueprintDataBlock.cs" t="Include" />
+          <e p="AVXDollarDataBlock.cs" t="Include" />
+          <e p="BatteriesDataBlock.cs" t="Include" />
+          <e p="BigLadderBlueprintDataBlock.cs" t="Include" />
+          <e p="BigLadderDataBlock.cs" t="Include" />
+          <e p="BigLootboxBlueprintDataBlock.cs" t="Include" />
+          <e p="BigLootboxDataBlock.cs" t="Include" />
+          <e p="BuildingLootboxBlueprintDataBlock.cs" t="Include" />
+          <e p="BuildingLootboxDataBlock.cs" t="Include" />
+          <e p="C4GrenadeDataBlock.cs" t="Include" />
+          <e p="CopperDataBlock.cs" t="Include" />
+          <e p="DamageTurretBlueprintDataBlock.cs" t="Include" />
+          <e p="DamageTurretDataBlock.cs" t="Include" />
+          <e p="DiamondsDataBlock.cs" t="Include" />
+          <e p="DrugOneDataBlock.cs" t="Include" />
+          <e p="ElectronicJunkDataBlock.cs" t="Include" />
+          <e p="FlagDataBlock.cs" t="Include" />
+          <e p="HealingStationBlueprintDataBlock.cs" t="Include" />
+          <e p="HealingStationDataBlock.cs" t="Include" />
+          <e p="InstantHealthBlueprintDataBlock.cs" t="Include" />
+          <e p="InstantHealthItemDataBlock.cs" t="Include" />
+          <e p="IronBaseBlueprintDataBlock.cs" t="Include" />
+          <e p="IronBaseDataBlock.cs" t="Include" />
+          <e p="IronShardsDataBlock.cs" t="Include" />
+          <e p="JointDataBlock.cs" t="Include" />
+          <e p="KeycardADataBlock.cs" t="Include" />
+          <e p="KeycardBDataBlock.cs" t="Include" />
+          <e p="KeycardC1DataBlock.cs" t="Include" />
+          <e p="KeycardCDataBlock.cs" t="Include" />
+          <e p="LandmineBlueprintDataBlock.cs" t="Include" />
+          <e p="LandmineDataBlock.cs" t="Include" />
+          <e p="LootboxBlueprintDataBlock.cs" t="Include" />
+          <e p="LootboxDataBlock.cs" t="Include" />
+          <e p="MetalBarricadeBlueprintDataBlock.cs" t="Include" />
+          <e p="MetalBarricadeDataBlock.cs" t="Include" />
+          <e p="ModifiedM4DataBlock.cs" t="Include" />
+          <e p="OneManBunkerBlueprintDataBlock.cs" t="Include" />
+          <e p="OneManBunkerDataBlock.cs" t="Include" />
+          <e p="ParachuteDataBlock.cs" t="Include" />
+          <e p="PortalRadioBlueprintDataBlock.cs" t="Include" />
+          <e p="PortalRadioDataBlock.cs" t="Include" />
+          <e p="RaidFlagBlueprintDataBlock.cs" t="Include" />
+          <e p="RaidFlagDataBlock.cs" t="Include" />
+          <e p="RangeTurretBlueprintDataBlock.cs" t="Include" />
+          <e p="RangeTurretDataBlock.cs" t="Include" />
+          <e p="RespawnFlagBlueprintDataBlock.cs" t="Include" />
+          <e p="RespawnFlagDataBlock.cs" t="Include" />
+          <e p="ShelfBlueprintDataBlock.cs" t="Include" />
+          <e p="ShelfDataBlock.cs" t="Include" />
+          <e p="SilencedTurretBlueprintDataBlock.cs" t="Include" />
+          <e p="SilencedTurretDataBlock.cs" t="Include" />
+          <e p="SmallLadderBlueprintDataBlock.cs" t="Include" />
+          <e p="SmallLadderDataBlock.cs" t="Include" />
+          <e p="SmokeGrenadeDataBlock.cs" t="Include" />
+          <e p="TestItemDataBlock.cs" t="Include" />
+          <e p="TPFourDataBlock.cs" t="Include" />
+          <e p="TpOneDataBlock.cs" t="Include" />
+          <e p="TPThreeDataBlock.cs" t="Include" />
+          <e p="TPTwoDataBlock.cs" t="Include" />
+          <e p="TurretBlueprintDataBlock.cs" t="Include" />
+          <e p="TurretDamageExtension.cs" t="Include" />
+          <e p="TurretDataBlock.cs" t="Include" />
+          <e p="TurretRangeExtensionDataBlock.cs" t="Include" />
+          <e p="TurretSilencerDataBlock.cs" t="Include" />
+          <e p="WaterBridgeBlueprintDataBlock.cs" t="Include" />
+          <e p="WaterBridgeDataBlock.cs" t="Include" />
+          <e p="WoodFactoryBlueprintDataBlock.cs" t="Include" />
+          <e p="WoodFactoryDataBlock.cs" t="Include" />
+        </e>
+        <e p="Extensions.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RPCBehaviour.cs" t="Include" />
+        <e p="SmokeGrenade.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="D:\Stuff\Rust\Server\Modules\CustomItems" t="ExcludeRecursive" />
+  </component>
+</project>

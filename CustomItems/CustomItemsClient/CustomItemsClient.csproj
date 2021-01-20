@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1C75C40-7CE6-40B8-8659-9DDA2DBA51E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustomItemsClient</RootNamespace>
+    <AssemblyName>CustomItemsClient</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>D:\Stuff\Rust\Rust_RustBuster2016\rust_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>D:\Stuff\Rust\Rust_RustBuster2016\rust_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.ID, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>D:\Stuff\Rust\Rust_RustBuster2016\rust_Data\Managed\Facepunch.ID.dll</HintPath>
+    </Reference>
+    <Reference Include="RustBuster2016, Version=1.0.0.0, Culture=neutral">
+      <HintPath>D:\Stuff\Rust\Rust_RustBuster2016\rust_Data\Managed\RustBuster2016.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="uLink, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>D:\Stuff\Rust\Rust_RustBuster2016\rust_Data\Managed\uLink.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Stuff/Rust/Rust_RustBuster2016/rust_Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AntiBoxGlitch.cs" />
+    <Compile Include="BundleBehaviour.cs" />
+    <Compile Include="CharacterWaiter.cs" />
+    <Compile Include="CustomItemsClient.cs" />
+    <Compile Include="DataBlocks\AbsolomM4BlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\AVXDollarDataBlock.cs" />
+    <Compile Include="DataBlocks\BatteriesDataBlock.cs" />
+    <Compile Include="DataBlocks\BigLadderBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\BigLadderDataBlock.cs" />
+    <Compile Include="DataBlocks\BigLootboxBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\BigLootboxDataBlock.cs" />
+    <Compile Include="DataBlocks\BuildingLootboxBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\BuildingLootboxDataBlock.cs" />
+    <Compile Include="DataBlocks\C4GrenadeDataBlock.cs" />
+    <Compile Include="DataBlocks\CopperDataBlock.cs" />
+    <Compile Include="DataBlocks\DamageTurretBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\DamageTurretDataBlock.cs" />
+    <Compile Include="DataBlocks\DiamondsDataBlock.cs" />
+    <Compile Include="DataBlocks\DrugOneDataBlock.cs" />
+    <Compile Include="DataBlocks\ElectronicJunkDataBlock.cs" />
+    <Compile Include="DataBlocks\FlagDataBlock.cs" />
+    <Compile Include="DataBlocks\HealingStationBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\HealingStationDataBlock.cs" />
+    <Compile Include="DataBlocks\InstantHealthBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\InstantHealthItemDataBlock.cs" />
+    <Compile Include="DataBlocks\IronBaseBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\IronBaseDataBlock.cs" />
+    <Compile Include="DataBlocks\IronShardsDataBlock.cs" />
+    <Compile Include="DataBlocks\JointDataBlock.cs" />
+    <Compile Include="DataBlocks\KeycardADataBlock.cs" />
+    <Compile Include="DataBlocks\KeycardBDataBlock.cs" />
+    <Compile Include="DataBlocks\KeycardC1DataBlock.cs" />
+    <Compile Include="DataBlocks\KeycardCDataBlock.cs" />
+    <Compile Include="DataBlocks\LandmineBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\LootboxBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\LootboxDataBlock.cs" />
+    <Compile Include="DataBlocks\MetalBarricadeBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\MetalBarricadeDataBlock.cs" />
+    <Compile Include="DataBlocks\ModifiedM4DataBlock.cs" />
+    <Compile Include="DataBlocks\OneManBunkerBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\OneManBunkerDataBlock.cs" />
+    <Compile Include="DataBlocks\ParachuteDataBlock.cs" />
+    <Compile Include="DataBlocks\LandmineDataBlock.cs" />
+    <Compile Include="DataBlocks\PortalRadioBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\PortalRadioDataBlock.cs" />
+    <Compile Include="DataBlocks\RaidFlagBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\RaidFlagDataBlock.cs" />
+    <Compile Include="DataBlocks\RangeTurretBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\RangeTurretDataBlock.cs" />
+    <Compile Include="DataBlocks\RespawnFlagBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\RespawnFlagDataBlock.cs" />
+    <Compile Include="DataBlocks\ShelfBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\ShelfDataBlock.cs" />
+    <Compile Include="DataBlocks\SilencedTurretBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\SilencedTurretDataBlock.cs" />
+    <Compile Include="DataBlocks\SmallLadderBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\SmallLadderDataBlock.cs" />
+    <Compile Include="DataBlocks\SmokeGrenadeDataBlock.cs" />
+    <Compile Include="DataBlocks\TestItemDataBlock.cs" />
+    <Compile Include="DataBlocks\TPFourDataBlock.cs" />
+    <Compile Include="DataBlocks\TPOneDataBlock.cs" />
+    <Compile Include="DataBlocks\TPThreeDataBlock.cs" />
+    <Compile Include="DataBlocks\TPTwoDataBlock.cs" />
+    <Compile Include="DataBlocks\TurretBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\TurretDamageExtension.cs" />
+    <Compile Include="DataBlocks\TurretDataBlock.cs" />
+    <Compile Include="DataBlocks\TurretRangeExtensionDataBlock.cs" />
+    <Compile Include="DataBlocks\TurretSilencerDataBlock.cs" />
+    <Compile Include="DataBlocks\WaterBridgeBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\WaterBridgeDataBlock.cs" />
+    <Compile Include="DataBlocks\WoodFactoryBlueprintDataBlock.cs" />
+    <Compile Include="DataBlocks\WoodFactoryDataBlock.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RPCBehaviour.cs" />
+    <Compile Include="SmokeGrenade.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

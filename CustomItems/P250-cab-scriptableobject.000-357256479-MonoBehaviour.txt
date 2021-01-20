@@ -1,0 +1,110 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 int m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 int m_PathID = 976
+ 1 string m_Name = "P250"
+ 0 int _uniqueID = -66148051
+ 1 string icon = "content/item/tex/p250_icon"
+ 0 int _maxUses = 8
+ 0 int _spawnUsesMin = 1
+ 0 int _spawnUsesMax = 1
+ 0 int _minUsesForDisplay = 1
+ 0 float _maxCondition = 100
+ 1 UInt8 _splittable = 0
+ 0 int _itemFlags = 0
+ 1 UInt8 isResearchable = 1
+ 1 UInt8 isRepairable = 1
+ 1 UInt8 isRecycleable = 1
+ 1 UInt8 doesLoseCondition = 1
+ 0 int category = 1
+ 1 string itemDescriptionOverride = ""
+ 0 PPtr<$AudioClip> equippedSound
+  0 int m_FileID = 0
+  0 int m_PathID = 0
+ 0 PPtr<$AudioClip> unEquippedSound
+  0 int m_FileID = 0
+  0 int m_PathID = 0
+ 0 PPtr<$AudioClip> combinedSound
+  0 int m_FileID = 0
+  0 int m_PathID = 0
+ 0 PPtr<$AudioClip> UsedSound
+  0 int m_FileID = 0
+  0 int m_PathID = 0
+ 0 CombineRecipe Combinations
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 int transientMode = 0
+ 0 PPtr<$ItemRepresentation> _itemRepPrefab
+  0 int m_FileID = 3
+  0 int m_PathID = -1840985859
+ 0 PPtr<$ViewModel> _viewModelPrefab
+  0 int m_FileID = 3
+  0 int m_PathID = -35898173
+ 0 PPtr<$AudioClip> deploySound
+  0 int m_FileID = 2
+  0 int m_PathID = 74224611
+ 1 UInt8 secondaryFireAims = 1
+ 0 float aimSensitivtyPercent = 0.400000006
+ 1 string attachmentPoint = "RArmHand"
+ 1 string animationGroupName = "pistol"
+ 1 UInt8 isSemiAuto = 1
+ 0 float fireRate = 0.0500000007
+ 0 float fireRateSecondary = 1
+ 0 float deployLength = 1
+ 0 float damageMin = 30
+ 0 float damageMax = 35
+ 0 PPtr<$AmmoItemDataBlock> ammoType
+  0 int m_FileID = 3
+  0 int m_PathID = -1951177971
+ 0 int maxClipAmmo = 8
+ 0 PPtr<$GameObject> tracerPrefab
+  0 int m_FileID = 3
+  0 int m_PathID = -1555490999
+ 0 PPtr<$GameObject> muzzleflashVM
+  0 int m_FileID = 3
+  0 int m_PathID = 953580434
+ 0 PPtr<$GameObject> muzzleFlashWorld
+  0 int m_FileID = 3
+  0 int m_PathID = 1942992064
+ 0 PPtr<$AudioClip> fireSound
+  0 int m_FileID = 2
+  0 int m_PathID = -931505396
+ 0 PPtr<$AudioClip> fireSound_Far
+  0 int m_FileID = 2
+  0 int m_PathID = -625679449
+ 0 PPtr<$AudioClip> reloadSound
+  0 int m_FileID = 2
+  0 int m_PathID = 1835978357
+ 0 PPtr<$AudioClip> headshotSound
+  0 int m_FileID = 2
+  0 int m_PathID = -543273336
+ 0 PPtr<$AudioClip> fireSound_SilencedFar
+  0 int m_FileID = 0
+  0 int m_PathID = 0
+ 0 PPtr<$AudioClip> fireSound_Silenced
+  0 int m_FileID = 2
+  0 int m_PathID = 1083779786
+ 0 PPtr<$AudioClip> dryFireSound
+  0 int m_FileID = 2
+  0 int m_PathID = 2058749664
+ 0 float fireSoundRange = 300
+ 0 float bulletRange = 120
+ 0 float recoilPitchMin = 8
+ 0 float recoilPitchMax = 9
+ 0 float recoilYawMin = -2.25
+ 0 float recoilYawMax = 2.25
+ 0 float recoilDuration = 0.150000006
+ 0 float aimingRecoilSubtract = 0.349999994
+ 0 float crouchRecoilSubtract = 0.200000003
+ 0 float reloadDuration = 2
+ 0 int maxEligableSlots = 5
+ 1 UInt8 NoAimingAfterShot = 0
+ 0 float aimSway = 1
+ 0 float aimSwaySpeed = 1
+ 0 PPtr<$BobEffect> shotBob
+  0 int m_FileID = 0
+  0 int m_PathID = 2025557685

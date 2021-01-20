@@ -1,0 +1,26 @@
+0 MonoBehaviour Base
+ 1 UInt8 m_Enabled = 1
+ 1 string m_Name = "Large Medkit"
+ 1 string icon = "content/item/tex/large_medkit"
+ 0 int _maxUses = 5
+ 0 int _spawnUsesMin = 1
+ 0 int _spawnUsesMax = 1
+ 0 int _minUsesForDisplay = 1
+ 0 float _maxCondition = 100
+ 1 UInt8 _splittable = 1
+ 0 int _itemFlags = 0
+ 1 UInt8 isResearchable = 1
+ 1 UInt8 isRepairable = 1
+ 1 UInt8 isRecycleable = 1
+ 1 UInt8 doesLoseCondition = 0
+ 0 int category = 4
+ 0 PPtr<$AudioClip> UsedSound
+  0 int m_FileID = 2
+  0 int m_PathID = 160585609
+ 0 CombineRecipe Combinations
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 int transientMode = 0
+ 0 float healthAddMin = 100
+ 0 float healthAddMax = 100
+ 1 UInt8 stopsBleeding = 1

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Vega\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Vega\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Vega\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_WorldEditor.1226699284.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Vega\RiderProjects\WorldEditor" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="README.md" t="Include" />
+      <e p="WorldEditor" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CharacterWaiter.cs" t="Include" />
+        <e p="ComboBox.cs" t="Include" />
+        <e p="CustomStuff" t="Include">
+          <e p="NewSupplyDropPlane.cs" t="Include" />
+        </e>
+        <e p="Editor.cs" t="Include" />
+        <e p="LoadingHandler.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="ObjectBehaviours" t="Include">
+          <e p="AirdropTowerBehaviour.cs" t="Include" />
+          <e p="DoorBehaviour.cs" t="Include" />
+          <e p="ImageZoneBehaviour.cs" t="Include" />
+          <e p="LandmineBehaviour.cs" t="Include" />
+          <e p="RadZoneBehaviour.cs" t="Include" />
+          <e p="TeleporterBehaviour.cs" t="Include" />
+          <e p="TurretBehaviour.cs" t="Include" />
+        </e>
+        <e p="Prefab.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RPCBehaviour.cs" t="Include" />
+        <e p="SpawnableObject.cs" t="Include" />
+        <e p="TimedSpawns.cs" t="Include" />
+        <e p="WorldEditor.cs" t="Include" />
+        <e p="WorldEditor.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WorldEditor.sln" t="IncludeFlat" />
+      <e p="WorldEditorServer" t="IncludeRecursive">
+        <e p="AutoSpawnBehaviour.cs" t="Include" />
+        <e p="AutoSpawnManager.cs" t="Include" />
+        <e p="CustomStuff" t="Include">
+          <e p="NewSupplyDropPlane.cs" t="Include" />
+        </e>
+        <e p="DoorSettings.cs" t="Include" />
+        <e p="ImageZoneSettings.cs" t="Include" />
+        <e p="LoadingHandler.cs" t="Include" />
+        <e p="LootStorageSettings.cs" t="Include" />
+        <e p="NukeManager.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="ObjectBehaviours" t="Include">
+          <e p="DestroyBehaviour.cs" t="Include" />
+          <e p="HealingStationBehaviour.cs" t="Include" />
+          <e p="LandmineBehaviour.cs" t="Include" />
+          <e p="LootStorageBehaviour.cs" t="Include" />
+          <e p="RadZoneBehaviour.cs" t="Include" />
+          <e p="TeleporterBehaviour.cs" t="Include" />
+          <e p="TurretBehaviour.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RPCBehaviour.cs" t="Include" />
+        <e p="SpawnManager.cs" t="Include" />
+        <e p="TeleporterSettings.cs" t="Include" />
+        <e p="Utils.cs" t="Include" />
+        <e p="WorldEditorServer.cs" t="Include" />
+        <e p="WorldEditorServer.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+    <e p="D:\Stuff\Rust\Server\Modules\WorldEditorServer" t="ExcludeRecursive" />
+  </component>
+</project>
